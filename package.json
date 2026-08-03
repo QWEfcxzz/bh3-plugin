@@ -1,0 +1,20 @@
+{
+  "name": "bh3-plugin",
+  "version": "1.0.0",
+  "description": "崩坏3（Honkai Impact 3rd）全功能查询插件：面板、便笺、角色、深渊、战场、逐光、图鉴、角色立绘、伤害计算",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.7"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^22.15.0"
+  },
+  "scripts": {
+    "update:data": "node ./scripts/build-characters.mjs"
+  }
+}

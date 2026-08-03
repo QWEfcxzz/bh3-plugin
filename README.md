@@ -1,4 +1,5 @@
 # bh3-plugin 崩坏3全功能查询插件
+一个非常不好用的插件
 
 面向 Yunzai / TRSS-Yunzai 的崩坏3（Honkai Impact 3rd）查询插件，支持战绩查询与公开图鉴查询。
 
@@ -141,3 +142,4 @@ npm run update:data
 ```
 
 最后重启 Bot 即可使用。
+最后宣传一下我自己的群701380759
